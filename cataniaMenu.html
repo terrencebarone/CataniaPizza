@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/header-footer.css">
+    <link rel="stylesheet" href="CSS/mediaQueries.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <h1 onclick="location.href='cataniaPizza.html'" class="main-header" id="logo">Catania's Pizza</h1>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+        <div id="slider">
+            <div id="slider-track">
+                <p class="med-header">Cash Only</p>
+                <p class="med-header">5% Off Online Orders</p>
+            </div>
+        </div> 
+        <div id="mobile-nav">
+            <ul class="logo-font">
+                <li class="link main-header">Home</li>
+                <li class="link main-header">Menu</li>
+                <li class="link main-header">About</li>
+                <li class="link main-header">Hours of Operation</li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="hours-popup">
+        <h1 class="logo-font close-button main-header">x</h1>
+        <h1  class="logo-font main-header" style="margin-bottom:10px;  text-decoration: underline;">Hours</h1>
+        <h2 class="logo-font med-header">Monday-Thursday</h2>
+        <h3 class="text" style="margin-bottom:15px;">10:00 AM - 12:00 AM</h3>
+        <h2 class="logo-font med-header">Friday-Saturday</h2>
+        <h3 class="text" style="margin-bottom:15px;">10:00 AM - 2:00 AM</h3>
+        <h2 class="logo-font med-header">Sunday</h2>
+        <h3 class="text" style="margin-bottom:15px;">10:00 AM - 6:00PM</h3>
+    </section>
+    <section id="food-menu">
+        <h1 class="menu-title main-header">Appetizers</h1>
+        <div class="topic-flex-box">
+            <div class="item-container">
+                <div class="item">
+                    <h2 class="med-header menu-item">Garlic Bread</h2>
+                    <p class="text price">$4.99</p>
+                </div>
+                <div class="item">
+                    <h2 class="med-header menu-item">Cheese Bread</h2>
+                    <p class="text price">$4.99</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="item">
+                    <h2 class="med-header menu-item">Buffalo Chicken Wings</h2>
+                    <p class="text price">$5.99</p>
+                </div>
+                <div class="item">
+                    <h2 class="med-header menu-item">Mozzarella Sticks</h2>
+                    <p class="text price">$5.99</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="menu-title main-header">Pizza</h1>
+        <div class="topic-flex-box">
+            <div class="item-container">
+                <div class="item">
+                    <h2 class="med-header menu-item">Cheese Lover Pizza</h2>
+                    <p class="text price">$10.99</p>
+                    <p class="text item-desc">Mozzarella, Cheddar, Provolone, Parmesan</p>
+                </div>
+                <div class="item">
+                    <h2 class="med-header menu-item">Delux Lover Pizza</h2>
+                    <p class="text price">$18.99</p>
+                    <p class="text item-desc">Pepperoni, Sausage, Onion, Green Pepper, Mushroom, Extra Cheese</p>
+                </div>
+                <div class="item">
+                    <h2 class="med-header menu-item">White Pizza</h2>
+                    <p class="text price">$14.99</p>
+                    <p class="text item-desc">Mozzarella, Ricotta, Parmesan</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="item">
+                    <h2 class="med-header menu-item">Buffalo Chicken Pizza</h2>
+                    <p class="text price">$18.99</p>
+                    <p class="text item-desc">Chicken, Onion, Hot Sauce, Blue Cheese, Provolone Cheese</p>
+                </div>
+                <div class="item">
+                    <h2 class="med-header menu-item">Veggie Lover</h2>
+                    <p class="text price">$16.99</p>
+                    <p class="text item-desc">Onion, Green Pepper, Tomato, Mushroom, Black Olives, Parmesan Cheese</p>
+                </div>
+                <div class="item">
+                    <h2 class="med-header menu-item">Chicken, Bacon, and Ranch Pizza</h2>
+                    <p class="text price">$17.99</p>
+                    <p class="text item-desc">Bacon, Beef, Cheddar, Ranch, Extra Cheese</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="menu-title main-header">Pasta</h1>
+        <div class="topic-flex-box">
+            <div class="item-container">
+                <div class="item">
+                    <h2 class="med-header menu-item">Grilled Chicken Alfredo Sauce Pasta</h2>
+                    <p class="text price">$7.99</p>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="item">
+                    <h2 class="med-header menu-item">Sausage with Marinara Sauce Pasta</h2>
+                    <p class="text price">$7.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="line"></div>
+        <div id="social-flex-container">
+            <img src="Pictures/fb.png" alt="">
+            <img src="Pictures/yelp.png" alt="">
+            <img src="Pictures/ig.png" alt="">
+        </div>
+    </footer>
+    
+    <script src="Javascript/header.js"></script>
+    <script src="Javascript/main.js"></script>
+</body>
+</html>

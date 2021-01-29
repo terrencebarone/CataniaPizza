@@ -1,0 +1,106 @@
+@media only screen and (min-width: 700px) {
+    #food-menu{
+        position:relative;
+        top:139px;
+    }
+    #about-us{
+        text-align: center;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 70px;
+        height: 10px;
+       
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-16px, -16px) ;
+        transform: rotate(45deg) translate(-16px, -16px) ;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    #about-us p{
+        text-align:center;
+        margin:0 auto;
+    }
+    #easy-click-container{
+        height:350px;
+    }
+    .text{
+        font-size:25px;
+    }
+    .med-header{
+        font-size: 40px;
+    }
+    .main-header{
+        font-size: 50px;
+    }
+    #landing-info{
+        width:400px;
+        height:450px;
+    }
+    #easy-click-container button{
+        padding:20px;
+        font-size:45px;
+       
+    }
+    #logo{
+        font-size: 50px;
+    }
+    #main-container{
+        top:139px;
+    }
+    #slider-track{
+        animation: scroll 20s infinite linear;
+    }
+    @keyframes scroll{
+        0%{
+            transform:translateX(-100vw);
+        }
+        100%{
+            transform:translateX(100%);
+        }
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    #about-hours-flex-container{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:50px 0px;
+    }
+    #about-us{
+        width:40%;
+        position:relative;
+        left:0;
+        transform: none;
+    }
+    #hours{
+        text-align: center;
+        width:40%;
+        margin:0;
+    }
+    .text{
+        font-size:35px;
+    }
+    .med-header{
+        font-size: 50px;
+    }
+    .main-header{
+        font-size: 70px;
+    }
+    #logo{
+        font-size: 70px;
+    }
+    #landing-info{
+        width:500px;
+        height:550px;
+    }
+    #main-container{
+        top:177px;
+    }
+    #landing{
+        padding:25px 0px;
+    }
+}

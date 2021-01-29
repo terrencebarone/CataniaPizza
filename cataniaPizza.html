@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cataniaPizza.css">
+    <link rel="stylesheet" href="CSS/header-footer.css">
+    <link rel="stylesheet" href="CSS/mediaQueries.css">
+    <title>Catania's</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <h1 onclick="location.href='cataniaPizza.html'" class="main-header" id="logo">Catania's Pizza</h1>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+        <div id="slider">
+            <div id="slider-track">
+                <p class="med-header">Cash Only</p>
+                <p class="med-header">5% Off Online Orders</p>
+            </div>
+        </div> 
+        <div id="mobile-nav">
+            <ul class="logo-font">
+                <li class="link main-header">Home</li>
+                <li class="link main-header">Menu</li>
+                <li class="link main-header">About</li>
+                <li class="link main-header">Hours of Operation</li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="hours-popup">
+        <h1 class="logo-font close-button main-header">x</h1>
+        <h1  class="logo-font main-header" style="margin-bottom:10px;  text-decoration: underline;">Hours</h1>
+        <h2 class="logo-font med-header">Monday-Thursday</h2>
+        <h3 class="text" style="margin-bottom:15px;">10:00 AM - 12:00 AM</h3>
+        <h2 class="logo-font med-header">Friday-Saturday</h2>
+        <h3 class="text" style="margin-bottom:15px;">10:00 AM - 2:00 AM</h3>
+        <h2 class="logo-font med-header">Sunday</h2>
+        <h3 class="text" style="margin-bottom:15px;">10:00 AM - 6:00PM</h3>
+    </section>
+
+    <div id="main-container">
+        <section id="landing">
+            <div id="landing-flex-container">
+                <div id="landing-info">
+                    <div id="landing-container">
+                        <h1 class="med-header">Open</h1>
+                        <i class="text">Until 12:00AM</i>
+                        <p  onclick=openHours() class="text hoverEffect" style="margin:10px 0px;">Full Hours</p>
+                        <h1 class="main-header logo-font" >Catania's Pizza</h1>
+                        <p class="text" style="margin-bottom:10px;">550 E 6th St. New York, New York 10009</p>
+                        <h3 class="med-header" style="margin-bottom:10px; border:3px  #448b5c dashed;">Save 5% Place Order Online</h3>
+                        <button href="tel:555-555-5555" class="logo-font" id="call-now-button">Call Now!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="banner"><h1 class="main-header logo-font">Dollar Pizza</h1></div>
+        <section id="easy-click">
+            <div id="easy-click-container">
+                <button onclick="location.href='cataniaMenu.html'" onclick="location.href='cataniaPizza.html'"style="margin-bottom:20px;" class="logo-font">Menu</button>
+                <button class="logo-font">Contact Us</button>
+            </div>
+        </section>
+        <div id="about-hours-flex-container">
+            <section id="about-us">
+                <h1 class="logo-font main-header">Fresh, Fast, <br>Delicious</h1>
+                <p class="text" id="about-info">The Catania family is made up of a wonderful group of people who 
+                    understand that our most important mission is to take care of our guests -- to treat 
+                    every visit like it's the first and to make everyone feel at home.</p>
+            </section>
+            <section id="hours">
+                <h1  class="logo-font main-header" style="margin-bottom:10px;  text-decoration: underline;">Hours</h1>
+                <h2 class="logo-font med-header">Monday-Thursday</h2>
+                <h3 class="text" style="margin-bottom:15px;">10:00 AM - 12:00 AM</h3>
+                <h2 class="logo-font med-header">Friday-Saturday</h2>
+                <h3 class="text" style="margin-bottom:15px;">10:00 AM - 2:00 AM</h3>
+                <h2 class="logo-font med-header">Sunday</h2>
+                <h3 class="text" style="margin-bottom:15px;">10:00 AM - 6:00PM</h3>
+            </section>
+        </div>
+        <footer>
+            <div id="line"></div>
+            <div id="social-flex-container">
+                <img src="Pictures/fb.png" alt="">
+                <img src="Pictures/yelp.png" alt="">
+                <img src="Pictures/ig.png" alt="">
+            </div>
+        </footer>
+    </div>
+    
+    <script src="Javascript/header.js"></script>
+    <script src="Javascript/responsive.js"></script>
+    <script src="Javascript/main.js"></script>
+</body>
+</html>
